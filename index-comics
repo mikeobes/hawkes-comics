@@ -1,1 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hawke's Comics</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+    }
+    header {
+      background-color: #222;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+      font-family: 'Bangers', cursive;
+      font-size: 2.5rem;
+    }
+    nav {
+      background-color: #ff3c00;
+      display: flex;
+      justify-content: center;
+      padding: 0.5rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+    }
+    .hero {
+      background-image: url('https://example.com/comic-hero.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 2rem;
+      font-weight: bold;
+      text-shadow: 2px 2px 4px #000;
+    }
+    .content {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .membership {
+      background-color: #fff;
+      padding: 2rem;
+      margin-top: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .membership h2 {
+      margin-top: 0;
+    }
+    .membership p {
+      font-size: 1.2rem;
+    }
+    .join-btn {
+      display: inline-block;
+      background-color: #ff3c00;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      text-decoration: none;
+      font-size: 1.2rem;
+      border-radius: 5px;
+      margin-top: 1rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #222;
+      color: #fff;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    Hawke's Comics
+  </header>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#comics">Comics</a>
+    <a href="#club">Join the Club</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="hero">
+    Unleash Your Superpowers — One Comic at a Time!
+  </div>
+  <div class="content">
+    <section id="comics">
+      <h2>Latest Comics</h2>
+      <p>Explore our newest releases from Hawke and friends. Epic stories, hilarious heroes, and out-of-this-world adventures await!</p>
+    </section>
+
+    <section class="membership" id="club">
+      <h2>Join Hawke's Comic Club</h2>
+      <p>Become a member for only <strong>$9.99/month</strong> and gain exclusive access to:</p>
+      <ul>
+        <li>Private Zoom meetings with the team</li>
+        <li>Create your own comic with live feedback</li>
+        <li>Behind-the-scenes sneak peeks</li>
+        <li>Member-only contests and shoutouts</li>
+      </ul>
+      <a class="join-btn" href="#">Join Now</a>
+    </section>
+  </div>
+
+  <footer>
+    &copy; 2025 Hawke's Comics. All rights reserved.
+  </footer>
+</body>
+</html>
 
